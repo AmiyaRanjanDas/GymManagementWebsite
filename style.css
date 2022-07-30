@@ -1,0 +1,296 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/body123.jpg');
+    background-size: 1367px;
+}
+
+#home div {
+    display: flex;
+    background-color: #ffffff29;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#home div img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* margin-left: 100px; */
+}
+
+#home div h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 38px;
+    /* padding-left: 70px; */
+    letter-spacing: 2px;
+}
+
+#home div ul {
+    display: flex;
+    padding: 8px;
+    position: absolute;
+    width: 100%;
+
+}
+
+#home div ul li {
+    padding: 5px 2px;
+    list-style: none;
+}
+
+#home div ul a {
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 35px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 540;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#button123 {
+    margin-top: 30px;
+}
+
+#top1 {
+    font-size: 45px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+#top2 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#top3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(255, 81, 0);
+}
+
+#top4 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+#logintag {
+    margin-left: 660px;
+}
+
+#home div ul a:hover {
+    color: rgb(140, 255, 0);
+}
+
+.fa {
+    padding: 15px;
+    font-size: 21px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: #005ec3;
+}
+
+.mytabs {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label,
+a {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.mytabs label:hover {
+    color: yellow;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 10px;
+    order: 1;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    display: none;
+}
+
+.tab ul {
+    text-align: left;
+    padding-left: 430px
+}
+
+.tab ul li {
+    padding: 3px;
+    font-size: 18px;
+}
+
+.mytabs input[type='radio']:checked+label+.tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked+label {
+    color: rgb(255, 140, 0);
+}
+
+.op12 {
+    padding: 8px 18px;
+    margin: 20px;
+    background-color: rgb(255, 81, 0);
+    ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#top5{
+    font-size:35px;font-weight:500;padding:10px;color: rgb(255, 81, 0);
+}
+#top6{
+    background-color:rgba(255, 255, 255, 0.2);border-radius: 50%;padding:62px 48px;font-size:20px;
+}
+#top7{
+    background-color:rgba(255, 255, 255, 0.2);border-radius: 50%;padding:60px 65px;font-size:18px;
+}
+#top8{
+    background-color:rgba(255, 255, 255, 0.2);border-radius: 50%;padding:60px 50px;font-size:20px;
+}
+
+@media only screen and (max-width:900px) {
+    #home div {
+        display: block;
+    }
+
+    #logintag {
+        margin-left: 0px;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        /* width: 50px; */
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #home div h1 {
+        font-size: 21px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #home div img {
+        width: 80px;
+        height: 80px;
+        padding-top: 20px;
+    }
+
+    .mytabs label,
+    a {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    #top1 {
+        font-size: 27px;
+    }
+
+    #top2 {
+        font-size: 18px;
+    }
+
+    .mytabs .tab {
+        margin-top: 70px;
+    }
+
+    #button123 {
+        margin-top: 14px;
+    }
+
+    .op12 {
+        padding: 5px 10px;
+        margin: 7px;
+        background-color: rgb(255, 81, 0);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 3px solid black;
+    }
+
+    .tab {
+        height: 200px;
+    }
+
+    body {
+        background-size: 820px;
+    }
+
+    #top3 {
+        font-size: 30px;
+    }
+
+    #top4 {
+        font-size: 17px;
+    }
+
+    .tab ul li {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    .tab ul {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    #top5 {
+        font-size:35px;font-weight:500;padding:10px;color: rgb(255, 81, 0);
+    }
+    #top6,#top7,#top8 {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        padding: 20px 1px;
+        font-size: 9px;
+        height: 99px;
+        width: 102px;
+    }
+   
+
+}

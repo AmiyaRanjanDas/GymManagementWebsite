@@ -1,0 +1,141 @@
+*, *::after,*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/body123.jpg');
+}
+#home div
+{
+    display: flex;
+    background-color: #ffffff29;
+    text-align: center;
+    justify-content: space-between;
+}
+#home div img
+{
+    width: 100px;
+    height: 100px;
+    padding:10px;
+    /* margin-left: 100px; */
+}
+#home div h1
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 38px;
+    /* padding-left: 70px; */
+    letter-spacing: 2px;
+}
+#home div ul
+{
+    display: flex;
+    padding: 8px;
+    position: absolute;
+    width: 100%;
+    
+}
+#home div ul li
+{
+    padding: 5px 2px;
+    list-style: none;
+}
+#home div ul a
+{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 35px;
+    text-decoration: none;  
+    font-family:'Poppins',sans-serif;
+    font-weight: 540;
+    letter-spacing: 1px;
+    position: relative;
+}
+#home div ul a:hover
+{
+    color: rgb(140, 255, 0);
+}
+.fa {
+    padding: 15px;
+    font-size:21px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+  }
+ 
+  .fa:hover {
+    color: #005ec3;
+  }
+
+.mytabs {
+ 
+    display: flex;
+    flex-wrap: wrap;  
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label,a {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.mytabs label:hover
+{
+    color:yellow;
+}
+a:hover{
+    color:yellow;
+}
+.mytabs .tab {
+    width: 100%;
+    padding: 10px;
+    order: 1;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    text-align:center;
+    display: none;
+    padding-left:180px
+}
+.tab ul
+{text-align:left;padding-left:430px}
+.tab ul li{
+    padding: 3px;
+    font-size: 18px;
+}
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+color:rgb(255, 140, 0);
+}
+
+table{
+    background-color: rgba(255, 255, 255, 0.515);
+    color: black;
+    border: 3px solid Black;
+    text-align: center;
+}
+table th{
+    font-size: 27px;
+    font-weight: 600;
+    padding: 13px;
+    border: 2px solid rgb(255, 140, 0);
+}
+table td{
+    border: 2px solid rgb(255, 128, 0);
+    font-size: 23px;
+    padding: 7px;
+    font-weight: 500;
+}
+ 
